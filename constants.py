@@ -1,0 +1,17 @@
+#header titles for each csv
+CUSTOMER_HEADER = ["CUSTOMER_CODE", "FIRSTNAME", "LASTNAME"]
+INVOICE_HEADER = ["CUSTOMER_CODE", "INVOICE_CODE", "AMOUNT", "DATE"]
+INVOICE_ITEM_HEADER = ["INVOICE_CODE", "ITEM_CODE", "AMOUNT", "QUANTITY"] 
+
+
+#path to input csv files
+SAMPLE_PATH = "./data/CUSTOMER_SAMPLE.csv"
+CUSTOMER_PATH = "./data/CUSTOMER.csv"
+INVOICE_PATH = "./data/INVOICE.csv"
+INVOICE_ITEM_PATH = "./data/INVOICE_ITEM.csv"
+
+
+#path to output csv files
+CUSTOMER_OUT = "./out/CUSTOMER.csv"
+INVOICE_OUT = "./out/INVOICE.csv"
+INVOICE_ITEM_OUT = "./out/INVOICE_ITEM.csv"
